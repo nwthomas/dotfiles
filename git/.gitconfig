@@ -23,6 +23,9 @@
 [core]
     editor = code --wait
 
+[init]
+    defaultBranch = main
+
 [pull]
     # performs fast forwarding merges only and fails otherwise
     ff = only

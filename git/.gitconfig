@@ -1,0 +1,9 @@
+[user]
+    name = Nathan Thomas
+    email = nathan@myemail.com
+[core]
+	editor = code --wait
+[pull]
+    ff = only
+[push]
+    followTags = true

@@ -1,9 +1,22 @@
 [user]
     name = Nathan Thomas
     email = nathan@myemail.com
+
+[alias]
+    dn = diff
+    ds = diff --staged
+    dt = diff HEAD
+
+[color]
+    ui = auto
+
 [core]
-	editor = code --wait
+    editor = code --wait
+
 [pull]
+    # performs fast forwarding merges only and fails otherwise
     ff = only
+
 [push]
+    # pushes up associated tags if they exist for a pushed commit
     followTags = true

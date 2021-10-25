@@ -1,3 +1,3 @@
 # dotfiles
 
-My personal collection of dotfiles.
+My personal collection of dotfiles. 🟢 🧠

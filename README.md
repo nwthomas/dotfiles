@@ -8,5 +8,6 @@ My personal collection of dotfiles. 🟢 🧠
 
 - [bash](./bash)
 - [git](./git)
+- [scripts](./scripts)
 - vim - Coming soon 🚧
 - [zsh](./zsh)

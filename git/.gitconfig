@@ -17,6 +17,8 @@
     sp = stash pop
     ss = stash save
 
+    pushf = push --force-with-lease
+
 [color]
     ui = auto
 

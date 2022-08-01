@@ -19,6 +19,8 @@
 
     pushf = push --force-with-lease
 
+    dad = !curl https://icanhazdadjoke.com/ && git add
+
 [color]
     ui = auto
 

@@ -35,5 +35,8 @@
     ff = only
 
 [push]
+    # automatically set remote
+	autoSetupRemote = true
+
     # pushes up associated tags if they exist for a pushed commit
     followTags = true

@@ -19,7 +19,7 @@
 
     pushf = push --force-with-lease
 
-    dad = !curl https://icanhazdadjoke.com/ && git add
+	dad = !curl https://icanhazdadjoke.com/ && git add
 
 [color]
     ui = auto
@@ -37,6 +37,7 @@
 [push]
     # automatically set remote
 	autoSetupRemote = true
+    default = current
 
     # pushes up associated tags if they exist for a pushed commit
     followTags = true

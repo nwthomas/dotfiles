@@ -28,3 +28,4 @@ alias gs="g status"
 alias gbd="g branch -D"
 alias work="cd ~/workspace"
 alias python='python3'
+alias gclean='git branch | grep -v "main" | xargs git branch -D'

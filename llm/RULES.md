@@ -1,6 +1,6 @@
 # Coding Rules and Best Practices
 
-This document outlines the coding standards, best practices, and guidelines for maintaining and contributing to this dotfiles repository.
+This document outlines the coding standards, best practices, and guidelines for maintaining and contributing code to any repository you work in.
 
 ## General Principles
 

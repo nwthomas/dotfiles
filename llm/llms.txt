@@ -1,0 +1,25 @@
+# Dotfiles
+
+> A comprehensive collection of shell configurations, scripts, and development tools for macOS. This repository contains personalized dotfiles for bash, zsh, git, and SSH configurations, along with utility scripts for system management and development workflows.
+
+This dotfiles repository is designed to provide a consistent development environment across different machines. It includes shell configurations, git aliases, SSH settings, and various utility scripts for common development tasks.
+
+## Shell Configurations
+
+- [Bash Configuration](bash/): Bash shell configuration files and aliases
+- [Zsh Configuration](zsh/): Zsh shell configuration with Oh My Zsh integration
+
+## Development Tools
+
+- [Git Configuration](git/): Git aliases, hooks, and configuration files
+- [SSH Configuration](ssh/config): SSH client configuration for multiple hosts
+
+## Utility Scripts
+
+- [Backup Script](scripts/backup-file.sh): Utility for backing up files with timestamp
+- [Password Generator](scripts/generate-random-password.sh): Generate secure random passwords
+- [Network Port Info](scripts/show-network-port-info.sh): Display network port information
+
+## Optional
+
+- [Git Resources](git/resources.txt): Additional git resources and references 

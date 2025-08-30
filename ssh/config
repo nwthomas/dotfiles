@@ -1,2 +1,39 @@
 Host *
     UseKeychain yes
+
+# Jumpbox
+Host hermes
+    HostName <hermes ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+# Kubernetes cluster nodes
+Host red1
+    HostName <red1 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host red2
+    HostName <red2 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host red3
+    HostName <red3 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host red4
+    HostName <red4 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host red5
+    HostName <red5 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host red6
+    HostName <red6 ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa

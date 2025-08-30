@@ -8,5 +8,4 @@ My personal collection of dotfiles.
 - [git](./git)
 - [scripts](./scripts)
 - [ssh](./ssh)
-- vim - Coming soon 🚧
 - [zsh](./zsh)

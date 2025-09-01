@@ -16,8 +16,11 @@ plugins=(colored-man-pages colorize command-not-found git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Various terminal commands
 alias c="clear"
 alias edit="nano ~/.zshrc"
+
+# Git terminal commands
 alias g="git"
 alias ga="g add -A"
 alias gc="g commit -m"
@@ -26,9 +29,26 @@ alias gr="g reset --hard"
 alias gp="g pull"
 alias gs="g status"
 alias gbd="g branch -D"
-alias work="cd ~/workspace"
-alias python='python3'
 alias gclean='git branch | grep -v "main" | xargs git branch -D'
+
+# Python terminal alias for legacy commands
+alias python='python3'
+
+# Commands for starting/ending Wireguard VPN
+alias wgup="sudo wg-quick up ~/vpn/nathan-macbook.conf"
+alias wgdown="sudo wg-quick down ~/vpn/nathan-macbook.conf"
+
+# SSH into various machines
+alias hermes="ssh nathanthomas@hermes.local"
+alias red1="ssh nathanthomas@red1.local"
+alias red2="ssh nathanthomas@red2.local"
+alias red3="ssh nathanthomas@red3.local"
+alias red4="ssh nathanthomas@red4.local"
+alias red5="ssh nathanthomas@red5.local"
+alias red6="ssh nathanthomas@red6.local"
+
+# Check gpu status (perf, CUDA, etc.)
+alias gpu="nvidia-smi"
 
 eval $(thefuck --alias)
 
@@ -49,14 +69,3 @@ esac
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
-# Commands for starting/ending Wireguard VPN
-alias wgup="sudo wg-quick up ~/vpn/nathan-macbook.conf"
-alias wgdown="sudo wg-quick down ~/vpn/nathan-macbook.conf"
-alias hermes="ssh nathanthomas@hermes.local"
-alias red1="ssh nathanthomas@red1.local"
-alias red2="ssh nathanthomas@red2.local"
-alias red3="ssh nathanthomas@red3.local"
-alias red4="ssh nathanthomas@red4.local"
-alias red5="ssh nathanthomas@red5.local"
-alias red6="ssh nathanthomas@red6.local"

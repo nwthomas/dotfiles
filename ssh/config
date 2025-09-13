@@ -1,2 +1,39 @@
 Host *
     UseKeychain yes
+
+# Jumpbox
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa
+
+# Kubernetes cluster nodes
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa
+
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa
+
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa
+
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa
+
+Host <hostname here>
+    HostName <hostname ip address here>
+    User nathanthomas
+    IdentityFile ~/.ssh/id_rsa
+
+Host <hostname here>
+    HostName <hostname ip address here>
+    User <user here>
+    IdentityFile ~/.ssh/id_rsa

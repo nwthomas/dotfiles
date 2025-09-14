@@ -7,8 +7,8 @@ While it might be slightly out of date at any given time, it's a decent source f
 ## TABLE OF CONTENTS
 
 - [bash](./bash)
+- [claude](./claude)
 - [git](./git)
-- [llm](./llm)
 - [scripts](./scripts)
 - [ssh](./ssh)
 - [zsh](./zsh)

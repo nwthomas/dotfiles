@@ -1,0 +1,42 @@
+{
+  "LOG": true,
+  "LOG_LEVEL": "debug",
+  "API_TIMEOUT_MS": "600000",
+  "APIKEY": "<api key here>",
+  "transformers": [],
+  "Providers": [
+    {
+      "title": "Local Ollama",
+      "name": "ollama",
+      "api_base_url": "http://<hostname here>:<port here>/v1/chat/completions",
+      "api_key": "ollama",
+      "models": [
+        "deepseek-r1:32b",
+        "gpt-oss:20b",
+        "gpt-oss:120b",
+        "qwen2.5:3b",
+        "qwen2.5:32b",
+        "qwen2.5vl:7b"
+      ]
+    }
+  ],
+  "StatusLine": {
+    "enabled": false,
+    "currentStyle": "default",
+    "default": {
+      "modules": []
+    },
+    "powerline": {
+      "modules": []
+    }
+  },
+  "Router": {
+    "default": "ollama,gpt-oss:20b",
+    "background": "ollama,qwen2.5:3b",
+    "think": "ollama,deepseek-r1:32b",
+    "longContext": "ollama,qwen2.5:32b",
+    "longContextThreshold": 60000,
+    "webSearch": "ollama,gpt-oss:20b",
+    "image": "ollama,qwen2.5vl:7b"
+  }
+}

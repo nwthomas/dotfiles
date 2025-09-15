@@ -5,3 +5,8 @@ Set up and install both Claude Code and Claude Code Router in order to use local
 This directory also contains a base AGENTS.md file that can be used as a foundation for repository-specific ones.
 
 Ollama logs can be tailed on Windows with this command: "Get-Content "$env:LOCALAPPDATA\Ollama\server.log" -Tail 200 -Wait"
+
+Important Claude Code Router commands:
+- ccr code
+- ccr start
+- ccr ui

@@ -2,7 +2,7 @@ The config.json file in this repository is a configuration file for Claude Code 
 
 Set up and install both Claude Code and Claude Code Router in order to use local models and thus run Claude Code for free.
 
-This directory also contains a base AGENTS.md file that can be used as a foundation for repository-specific ones.
+This directory also contains a base CLAUDE.md file that can be used as a foundation for repository-specific ones.
 
 Ollama logs can be tailed on Windows with this command: "Get-Content "$env:LOCALAPPDATA\Ollama\server.log" -Tail 200 -Wait"
 

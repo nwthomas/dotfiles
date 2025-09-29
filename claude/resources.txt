@@ -6,6 +6,8 @@ This directory also contains a base CLAUDE.md file that can be used as a foundat
 
 Ollama logs can be tailed on Windows with this command: "Get-Content "$env:LOCALAPPDATA\Ollama\server.log" -Tail 200 -Wait"
 
+Documentation for Claude Code best practice usage can be found here: https://www.anthropic.com/engineering/claude-code-best-practices
+
 Important Claude Code Router commands:
 - ccr code
 - ccr start

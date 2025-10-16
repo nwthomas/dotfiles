@@ -1,0 +1,10 @@
+This directory is a work in progress as I learn Vim.
+
+If you want to learn Vim, you can use the following resources:
+
+1. Vimtutor - https://vimschool.netlify.app/introduction/vimtutor
+2. Vim School - https://vimschool.netlify.app
+3. Vim Adventures - https://vim-adventures.com
+4. Vim Mastery - https://vimmastery.com
+5. Vim Tips - https://vimtips.org
+6. Vim Golf - https://vimgolf.com

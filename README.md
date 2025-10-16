@@ -11,4 +11,5 @@ While it might be slightly out of date at any given time, it's a decent source f
 - [git](./git)
 - [scripts](./scripts)
 - [ssh](./ssh)
+- [vim](./vim)
 - [zsh](./zsh)

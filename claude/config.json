@@ -11,11 +11,7 @@
       "api_base_url": "http://<hostname here>:<port here>/v1/chat/completions",
       "api_key": "ollama",
       "models": [
-        "deepseek-r1:32b",
         "gpt-oss:20b",
-        "gpt-oss:120b",
-        "qwen2.5:3b",
-        "qwen2.5:32b",
         "qwen2.5vl:7b"
       ]
     }
@@ -31,12 +27,12 @@
     }
   },
   "Router": {
-    "default": "ollama,gpt-oss:20b",
-    "background": "ollama,qwen2.5:3b",
-    "think": "ollama,deepseek-r1:32b",
-    "longContext": "ollama,qwen2.5:32b",
+    "default": "gpt-oss:20b",
+    "background": "gpt-oss:20b",
+    "think": "gpt-oss:20b",
+    "longContext": "gpt-oss:20b",
     "longContextThreshold": 60000,
-    "webSearch": "ollama,gpt-oss:20b",
+    "webSearch": "gpt-oss:20b",
     "image": "ollama,qwen2.5vl:7b"
   }
 }

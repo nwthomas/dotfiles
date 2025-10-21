@@ -16,3 +16,4 @@ alias gs="g status"
 alias gbd="g branch -D"
 alias work="cd ~/workspace"
 alias python='python3'
+alias edit="nano ~/.bash_profile"

@@ -46,6 +46,8 @@ alias hostname3="ssh nathanthomas@<hostname here>.local"
 alias hostname4="ssh nathanthomas@<hostname here>.local"
 alias hostname5="ssh nathanthomas@<hostname here>.local"
 alias hostname6="ssh nathanthomas@<hostname here>.local"
+# The below command must use both the broadcast IP address for the subnet as well as the MAC address of the device
+alias wol<node name here>="wakeonlan -i <broadcast ip address for subnet here> -m <mac address here>"
 
 # Check gpu status (perf, CUDA, etc.)
 alias gpu="nvidia-smi"

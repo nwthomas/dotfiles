@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "system",
+  "provider": {
+    "myprovider": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "<provider name here>",
+      "options": {
+        "baseURL": "http://<hostname here>:<port here>/v1"
+      },
+      "models": {
+        "gpt-oss:20b-128k": {
+          "name": "GPT OSS 20B"
+        },
+        "qwen3:30b-256k": {
+            "name": "Qwen3 30B"
+        }
+      }
+    }
+  }
+}

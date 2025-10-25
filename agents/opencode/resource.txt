@@ -1,0 +1,25 @@
+OpenCode provides an alternative to Claude Code and Claude Code Router.
+
+In my own personal testing, it blows Claude Code and Claude Code Router out of the water when you're using locally-hosted models. It's a bit more complex to set up, but it's worth it.
+
+To get started, you need to install the opencode CLI.
+
+```bash
+npm install -g opencode
+```
+
+Then, you need to create a config file.
+
+```bash
+opencode init
+```
+
+Finally, you need to create an opencode.json file, preferably globally (although you can use a local-to-project one if you want).
+
+Documentation for OpenCode best practice usage can be found here: hhttps://opencode.ai
+
+OpenCode commands:
+- opencode init
+- opencode
+- opencode models
+- opencode run [message..] 

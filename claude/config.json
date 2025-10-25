@@ -38,12 +38,12 @@
     }
   },
   "Router": {
-    "default": "gpt-oss:20b",
-    "background": "gpt-oss:20b",
-    "think": "gpt-oss:20b",
-    "longContext": "gpt-oss:20b",
+    "default": "ollama,gpt-oss:20b",
+    "background": "ollama,gpt-oss:20b",
+    "think": "ollama,gpt-oss:20b",
+    "longContext": "ollama,gpt-oss:20b",
     "longContextThreshold": 60000,
-    "webSearch": "gpt-oss:20b",
+    "webSearch": "ollama,gpt-oss:20b",
     "image": "ollama,qwen2.5vl:7b"
   }
 }

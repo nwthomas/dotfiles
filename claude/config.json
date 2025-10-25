@@ -19,7 +19,7 @@
       "api_base_url": "http://<hostname here>:<port here>/v1/chat/completions",
       "api_key": "ollama",
       "models": [
-        "gpt-oss:20b",
+        "gpt-oss:20b-128k",
         "qwen2.5vl:7b"
       ],
       "transformer": {
@@ -38,12 +38,12 @@
     }
   },
   "Router": {
-    "default": "ollama,gpt-oss:20b",
-    "background": "ollama,gpt-oss:20b",
-    "think": "ollama,gpt-oss:20b",
-    "longContext": "ollama,gpt-oss:20b",
+    "default": "ollama,gpt-oss:20b-128k",
+    "background": "ollama,gpt-oss:20b-128k",
+    "think": "ollama,gpt-oss:20b-128k",
+    "longContext": "ollama,gpt-oss:20b-128k",
     "longContextThreshold": 60000,
-    "webSearch": "ollama,gpt-oss:20b",
-    "image": "ollama,qwen2.5vl:7b"
+    "webSearch": "ollama,gpt-oss:20b-128k",
+    "image": "ollama,qwen2.5vl:7b-128k"
   }
 }

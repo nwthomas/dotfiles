@@ -1,5 +1,7 @@
 The config.json file in this repository is a configuration file for Claude Code Router, not Claude Code. You can find out more about Claude Code Router here: https://github.com/musistudio/claude-code-router
 
+NOTE: The gpt-oss:20b-128k model is not available in the Ollama Docker image. The gpt-oss:20b model defaults to a context window of 4096 tokens but allows up to 128k if you manually define the context window during deployment. See this file in my gitops repository for more information: https://github.com/nwthomas/gitops/blob/main/helm/ollama/values.yaml
+
 Set up and install both Claude Code and Claude Code Router in order to use local models and thus run Claude Code for free. The config.json file should go in your ~/.claude-code-router directory.
 
 This directory also contains a base CLAUDE.md file that can be used as a foundation for repository-specific ones.
@@ -11,4 +13,6 @@ Documentation for Claude Code best practice usage can be found here: https://www
 Important Claude Code Router commands:
 - ccr code
 - ccr start
+- ccr stop
+- ccr restart
 - ccr ui

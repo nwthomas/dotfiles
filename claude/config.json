@@ -3,7 +3,15 @@
   "LOG_LEVEL": "debug",
   "API_TIMEOUT_MS": "600000",
   "APIKEY": "<api key here>",
-  "transformers": [],
+  "transformers": [
+    {
+      "path": "root/path/here/.claude-code-router/plugins/ollama-transformer.js",
+      "options": {
+        "num_ctx": 131072,
+        "debug": true
+      }
+    }
+  ],
   "Providers": [
     {
       "title": "Local Ollama",
@@ -13,7 +21,10 @@
       "models": [
         "gpt-oss:20b",
         "qwen2.5vl:7b"
-      ]
+      ],
+      "transformer": {
+        "use": ["ollama-transformer"]
+      }
     }
   ],
   "StatusLine": {

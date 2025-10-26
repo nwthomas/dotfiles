@@ -5,7 +5,7 @@ export NODE_PATH='/usr/local/lib/node_modules'
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export UPDATE_ZSH_DAYS=13
 export VISUAL="/usr/bin/vim"
-export ZSH="/Users/nathanthomas/.oh-my-zsh"
+export ZSH="/Users/<username here>/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 CASE_SENSITIVE="true"
@@ -39,13 +39,13 @@ alias wgup="sudo wg-quick up ~/vpn/nathan-macbook.conf"
 alias wgdown="sudo wg-quick down ~/vpn/nathan-macbook.conf"
 
 # SSH into various machines
-alias hostname1="ssh nathanthomas@<hostname here>.local"
-alias hostname2="ssh nathanthomas@<hostname here>.local"
-alias hostname2="ssh nathanthomas@<hostname here>.local"
-alias hostname3="ssh nathanthomas@<hostname here>.local"
-alias hostname4="ssh nathanthomas@<hostname here>.local"
-alias hostname5="ssh nathanthomas@<hostname here>.local"
-alias hostname6="ssh nathanthomas@<hostname here>.local"
+alias hostname1="ssh <username here>@<hostname here>.local"
+alias hostname2="ssh <username here>@<hostname here>.local"
+alias hostname2="ssh <username here>@<hostname here>.local"
+alias hostname3="ssh <username here>@<hostname here>.local"
+alias hostname4="ssh <username here>@<hostname here>.local"
+alias hostname5="ssh <username here>@<hostname here>.local"
+alias hostname6="ssh <username here>@<hostname here>.local"
 # The below command must use both the broadcast IP address for the subnet as well as the MAC address of the device
 alias wol<node name here>="wakeonlan -i <broadcast ip address for subnet here> -m <mac address here>"
 
@@ -61,7 +61,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.poetry/bin:$PATH"
 
 # pnpm
-export PNPM_HOME="/Users/nathanthomas/Library/pnpm"
+export PNPM_HOME="/Users/<username here>/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;

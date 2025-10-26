@@ -44,6 +44,6 @@
     "longContext": "ollama,gpt-oss:20b-128k",
     "longContextThreshold": 60000,
     "webSearch": "ollama,gpt-oss:20b-128k",
-    "image": "ollama,qwen2.5vl:7b-128k"
+    "image": "ollama,ollama,qwen2.5vl:7b"
   }
 }

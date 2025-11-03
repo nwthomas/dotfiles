@@ -9,11 +9,11 @@
         "baseURL": "http://<hostname here>:<port here>/v1"
       },
       "models": {
-        "gpt-oss:20b-128k": {
+        "gpt-oss:20b-128k-context": {
           "name": "GPT OSS 20B"
         },
-        "qwen3:30b-256k": {
-            "name": "Qwen3 30B"
+        "deepseek-r1:32b-64k-context": {
+          "name": "DeepSeek R1 32B 64k Context"
         }
       }
     }

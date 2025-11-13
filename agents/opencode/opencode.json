@@ -9,13 +9,32 @@
         "baseURL": "http://<hostname here>:<port here>/v1"
       },
       "models": {
-        "gpt-oss:20b-128k-context": {
-          "name": "GPT OSS 20B"
+        "gpt-oss:20b-131k-context": {
+          "name": "GPT OSS 20B 131k Context",
+          "limit": {
+            "context": 131072,
+            "output": 32768
+          }
         },
-        "deepseek-r1:32b-64k-context": {
-          "name": "DeepSeek R1 32B 64k Context"
+        "qwen3-coder:30b-32k-context": {
+          "name": "Qwen3 Coder 30B 64k Context",
+          "limit": {
+            "context": 32768,
+            "output": 32768
+          }
+        },
+        "qwen3:30b-32k-context": {
+          "name": "Qwen3 30B 32k Context",
+          "limit": {
+            "context": 32768,
+            "output": 32768
+          }
         }
       }
     }
+  },
+  "permission": {
+    "doom_loop": "ask",
+    "external_directory": "ask"
   }
 }

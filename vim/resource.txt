@@ -1,6 +1,8 @@
-This directory is a work in progress as I learn Vim.
+This directory is a work in progress as I learn Vim syntax and Neovim.
 
-If you want to learn Vim, you can use the following resources:
+The best starting resource for me was just installing Vim/Neovim and running `nvim` and then `:Tutor` for the introductory syntax and keybindings.
+
+However, good follow-up resources that have proven helpful on my journey are:
 
 1. Vimtutor - https://vimschool.netlify.app/introduction/vimtutor
 2. Vim School - https://vimschool.netlify.app

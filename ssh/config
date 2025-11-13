@@ -28,7 +28,7 @@ Host <hostname-here>
     User <user-here>
     IdentityFile <identity-file-here>
 
-Host <hostname-here>
+Host <hostname-here> # GPU node
    HostName <hostname-ip-address-here>
    User <user-here>
    IdentityFile <identity-file-here>

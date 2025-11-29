@@ -4,31 +4,13 @@
   "provider": {
     "myprovider": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "<provider name here>",
+      "name": "vllm-kube",
       "options": {
-        "baseURL": "http://<hostname here>:<port here>/v1"
+        "baseURL": "http://<ip_address_here>:<port_here>/v1"
       },
       "models": {
-        "gpt-oss:20b-131k-context": {
-          "name": "GPT OSS 20B 131k Context",
-          "limit": {
-            "context": 131072,
-            "output": 32768
-          }
-        },
-        "qwen3-coder:30b-32k-context": {
-          "name": "Qwen3 Coder 30B 64k Context",
-          "limit": {
-            "context": 32768,
-            "output": 32768
-          }
-        },
-        "qwen3:30b-32k-context": {
-          "name": "Qwen3 30B 32k Context",
-          "limit": {
-            "context": 32768,
-            "output": 32768
-          }
+        "openai/gpt-oss-20b": {
+          "name": "GPT OSS 20B"
         }
       }
     }

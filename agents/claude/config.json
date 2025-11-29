@@ -3,28 +3,13 @@
   "LOG_LEVEL": "debug",
   "API_TIMEOUT_MS": "600000",
   "APIKEY": "<api key here>",
-  "transformers": [
-    {
-      "path": "root/path/here/.claude-code-router/plugins/ollama-transformer.js",
-      "options": {
-        "num_ctx": 131072,
-        "debug": true
-      }
-    }
-  ],
   "Providers": [
     {
-      "title": "Local Ollama",
-      "name": "ollama",
+      "title": "vLLM Kube",
+      "name": "vllm",
       "api_base_url": "http://<hostname here>:<port here>/v1/chat/completions",
-      "api_key": "ollama",
-      "models": [
-        "gpt-oss:20b-128k",
-        "qwen2.5vl:7b"
-      ],
-      "transformer": {
-        "use": ["ollama-transformer"]
-      }
+      "api_key": "vllm",
+      "models": ["openai/gpt-oss-20b"]
     }
   ],
   "StatusLine": {
@@ -38,12 +23,12 @@
     }
   },
   "Router": {
-    "default": "ollama,gpt-oss:20b-128k",
-    "background": "ollama,gpt-oss:20b-128k",
-    "think": "ollama,gpt-oss:20b-128k",
-    "longContext": "ollama,gpt-oss:20b-128k",
+    "default": "vllm,openai/gpt-oss-20b",
+    "background": "vllm,openai/gpt-oss-20b",
+    "think": "vllm,openai/gpt-oss-20b",
+    "longContext": "vllm,openai/gpt-oss-20b",
     "longContextThreshold": 60000,
-    "webSearch": "ollama,gpt-oss:20b-128k",
-    "image": "ollama,ollama,qwen2.5vl:7b"
+    "webSearch": "vllm,openai/gpt-oss-20b",
+    "image": "vllm,openai/gpt-oss-20b"
   }
 }
